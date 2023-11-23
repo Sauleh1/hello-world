@@ -9,9 +9,12 @@ const HomePage = () => {
 	return (
 		<main className = {styles.main}>
 			<body className = {inter.className}>
-				<h1>Hello World</h1>
-				<Link href="/about">Go to About Page</Link>
+				<h1 className = "Change1">Hello World</h1>
+				<a href = "/about">
+					<button className="ChangeLink1">Go to About Page</button>	
+				</a> <br />
 			</body>
+			<button className="ChangeButton1">Button</button>
 		</main>
 	)
 }

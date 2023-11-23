@@ -32,3 +32,33 @@ body {
   place-content: center;
   background-color: white;
 }
+
+.Change1 {
+  color: rgb(255, 78, 199);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-size: x-large;
+  background-color: rgb(var(255, 122, 76));
+}
+
+.ChangeLink1 {
+  color: rgb(223, 10, 175);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.ChangeLink1:hover {
+  color: rgb(223, 120, 175);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 21px;
+  transition: 0.375s;
+  border-color: white;
+  border-radius: 2px;
+}
+
+.ChangeButton1 {
+  color: red;
+  border-color: black;
+  cursor: grab;
+  orientation: 120deg;
+  font-family: "Trebuchet MS";
+}
